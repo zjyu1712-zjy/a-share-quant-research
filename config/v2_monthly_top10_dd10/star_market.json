@@ -1,0 +1,7 @@
+{
+  "enabled": false,
+  "investor_permission_confirmed": false,
+  "max_portfolio_weight": 0.2,
+  "max_holdings": 2,
+  "exclude_unprofitable_u": true
+}

@@ -1,0 +1,6 @@
+﻿variant,label,total_return,cagr,sharpe,max_drawdown,benchmark_return,excess_return,avg_turnover_pct,avg_deployment_pct,total_fees,slippage_cost,friction_drag_pct_of_initial_cash,risk_event_count,warning_or_defensive_events
+raw_lowvol,原始低波动Top 10（无约束、无费用）,39.6,10.69,0.724,-11.84,-1.1302725953279635,40.73027259532797,69.0,97.5,0.0,0.0,0.0,0,0
+add_sector_constraint,加入行业限制,29.08,8.08,0.531,-11.85,-1.1302725953279635,30.21027259532796,88.0,96.6,0.0,0.0,0.0,0,0
+add_rank_buffer,再加入排名缓冲30,28.15,7.84,0.51,-11.56,-1.1302725953279635,29.28027259532796,42.0,96.6,0.0,0.0,0.0,0,0
+add_drawdown_overlay,再加入回撤仓位控制,-3.96,-1.22,-0.514,-10.31,-1.1302725953279635,-2.8297274046720364,42.0,36.2,0.0,0.0,0.0,36,29
+full_framework,最后加入真实交易费用,-3.59,-1.11,-0.576,-10.4,-1.1302725953279635,-2.4597274046720363,42.0,31.4,2641.79,537.79,3.17958,20,20

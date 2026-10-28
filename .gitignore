@@ -1,0 +1,35 @@
+# Private configuration and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials*
+secrets*
+
+# All downloaded data, personal state, trading ledgers and runtime output
+/data/
+/logs/
+*.log
+*.db
+*.db-*
+*.sqlite*
+/config/**/star_market_activation_protocol.json
+
+# Local environments and tooling
+.venv/
+venv/
+.cache/
+__pycache__/
+*.py[cod]
+.DS_Store
+.idea/
+.vscode/
+.claude/
+.codex/
+.pytest_cache/
+*.egg-info/
+build/
+dist/
+.coverage
+htmlcov/
